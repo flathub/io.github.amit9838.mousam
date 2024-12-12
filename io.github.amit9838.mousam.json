@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.amit9838.mousam",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
     "command" : "mousam",
     "finish-args" : [
@@ -31,7 +31,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "d05573ba49cfd16e6d20e35c85ae27710a2cb9cc",
+                    "commit" : "91bee8459ccdbaf8820304188de1067fcf16a607",
                     "url" : "https://github.com/amit9838/mousam.git"
                 }
             ]
