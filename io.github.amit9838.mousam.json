@@ -22,8 +22,11 @@
         "*.la",
         "*.a"
     ],
+    "cleanup-commands": [
+        "python3 -m compileall -f --invalidation-mode=unchecked-hash /app"
+    ],
     "modules" : [
-    	"data/dependencies/python3-requests.json",
+        "data/dependencies/python3-requests.json",
         {
             "name" : "mousam",
             "builddir" : true,
@@ -31,8 +34,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "4f76e1c0a38da3e067e6c27c9b4f95f3d9755567",
-                    "url" : "https://github.com/amit9838/mousam.git"
+                    "url" : "https://github.com/amit9838/mousam.git",
+                    "commit" : "4f76e1c0a38da3e067e6c27c9b4f95f3d9755567"
                 }
             ]
         }
