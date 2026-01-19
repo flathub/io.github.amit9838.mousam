@@ -1,17 +1,17 @@
 {
-    "app-id" : "io.github.amit9838.mousam",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "mousam",
-    "finish-args" : [
+    "app-id": "io.github.amit9838.mousam",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "49",
+    "sdk": "org.gnome.Sdk",
+    "command": "mousam",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -22,17 +22,17 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
-    	"data/dependencies/python3-requests.json",
+    "modules": [
+        "data/dependencies/python3-requests.json",
         {
-            "name" : "mousam",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "mousam",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "commit" : "4f76e1c0a38da3e067e6c27c9b4f95f3d9755567",
-                    "url" : "https://github.com/amit9838/mousam.git"
+                    "type": "git",
+                    "commit": "1d5033b27285d489970b1b8c1db2aa11ed44d781",
+                    "url": "https://github.com/amit9838/mousam.git"
                 }
             ]
         }
