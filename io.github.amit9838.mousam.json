@@ -22,6 +22,9 @@
         "*.la",
         "*.a"
     ],
+    "cleanup-commands": [
+        "python3 -m compileall -f --invalidation-mode=unchecked-hash /app"
+    ],
     "modules": [
         "data/dependencies/python3-requests.json",
         {
@@ -31,8 +34,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "commit": "1d5033b27285d489970b1b8c1db2aa11ed44d781",
-                    "url": "https://github.com/amit9838/mousam.git"
+                    "url": "https://github.com/amit9838/mousam.git",
+                    "commit": "1d5033b27285d489970b1b8c1db2aa11ed44d781"
                 }
             ]
         }
