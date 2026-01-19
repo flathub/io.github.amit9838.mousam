@@ -34,8 +34,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "4f76e1c0a38da3e067e6c27c9b4f95f3d9755567",
-                    "url" : "https://github.com/amit9838/mousam.git"
+                    "url" : "https://github.com/amit9838/mousam.git",
+                    "commit" : "4f76e1c0a38da3e067e6c27c9b4f95f3d9755567"
                 }
             ]
         }
