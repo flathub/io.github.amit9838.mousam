@@ -26,7 +26,7 @@
         "python3 -m compileall -f --invalidation-mode=unchecked-hash /app"
     ],
     "modules" : [
-    	"data/dependencies/python3-requests.json",
+        "data/dependencies/python3-requests.json",
         {
             "name" : "mousam",
             "builddir" : true,
