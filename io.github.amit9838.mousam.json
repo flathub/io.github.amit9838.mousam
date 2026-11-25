@@ -23,8 +23,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/amit9838/mousam.git",
-                    "tag": "v3.0.0",
-                    "commit": "f3df14b0d67cbdaf7ad9f1537db73d89aff14f5e"
+                    "tag": "v3.1.0",
+                    "commit": "97b81b8585e2a505b48ae362431737e88fe1d9d3"
                 }
             ]
         }
